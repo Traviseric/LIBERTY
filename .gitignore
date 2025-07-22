@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.env
+.env.local
+
+# Private content
+/private/
+/content/pdfs/
+/content/courses/
+hidden-contracts.pdf
+sovereignty-codex.pdf
+
+# Customer data
+/data/
+/emails/
+*.csv
+*.xlsx
+
+# API keys and configs
+config.js
+stripe-config.js
+convertkit-config.js
+
+# Build files
+.vercel
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
